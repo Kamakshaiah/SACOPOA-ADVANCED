@@ -1,11 +1,11 @@
-# COPO Attainment Calculator
+# SACOPOA (COPO Attainment Calculator)
 
-A Python Tkinter application for calculating Course Outcome Program Outcome (COPO) attainment based on student marks.
+SACOPOA is a software application for Course Outcome Program Outcome (COPO) attainment caliculations based on student marks.
 
 ## Features
 
 - Input marks for multiple students
-- Calculates percentage of students achieving different mark thresholds (60%, 50%, 40%)
+- Calculates percentage of students achieving different mark thresholds (eg. 60%, 50%, 40%)
 - Displays average marks for the class
 - Determines class attainment level based on performance
 - User-friendly graphical interface
@@ -18,16 +18,17 @@ The application calculates attainment levels based on the percentage of students
 - Level 1 (Low): ≥ 50% of students score 60% or above
 - Level 0 (Very Low): < 50% of students score 60% or above
 
+The advanced application has the ability to work with dynamic levels. Users can define the levels initially before analysis. 
+
 ## How to Run
 
-1. Ensure you have Python installed with tkinter package
-2. Run the application:
-   ```
-   python copo_calculator.py
-   ```
-3. Enter the number of students and click "Generate Input Fields"
-4. Enter marks for each student (out of 100)
-5. Click "Calculate COPO Attainment" to see the results
+1. Run setup file
+3. Upload student marks (should be a Excel workbook)
+4. App automatically calculate the attainments with download buttons for reports.
+5. The app has implementation for slow-learner identification (single and multiple threashold values)
+6. Does advanced analysis using scenarios for competitive analysis.
+7. Has menus for plots (with save plot methods)
+8. Fully GUI application with all necessary implementations for COPO attainment analysis. 
 
 ## Calculation Methodology
 
