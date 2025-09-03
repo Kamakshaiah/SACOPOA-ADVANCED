@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML outputs
+ml_outputs/
+*.pkl
+*.joblib
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Data files (optional - uncomment if needed)
+# *.xlsx
+# *.csv
+# *.json
+
+# Documentation builds
+docs/_build/
